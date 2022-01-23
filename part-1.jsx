@@ -27,3 +27,20 @@ const JSX = (
     <h1>Add a class to this div</h1>
   </div>
 );
+
+// 5. Create a React component as a JS function
+const MyComponent = function() {
+  return (
+    <div> Hello there </div>
+  ) }
+
+// 6. Create a component with the ES6 'class' syntax
+class Kitten extends React.Component { 
+		constructor(props) {
+			super(props); }
+		render() {
+			return ( <div>
+              <h1> Hello React! </h1>
+             </div> );  
+              }
+}
